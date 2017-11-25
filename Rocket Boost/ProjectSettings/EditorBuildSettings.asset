@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/DataFiles/Scenes/Maze.unity
+    guid: 703ace47984f2264eaec03ebeb2e6467
+  - enabled: 1
+    path: Assets/DataFiles/Scenes/EndScene.unity
+    guid: bfd080848f0ef421fb84e9015ed330c5
