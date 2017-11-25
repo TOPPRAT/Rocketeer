@@ -1,0 +1,5 @@
+Min:
+	Adjusted camera clipping planes to avoid seeing through walls	
+	Changed audio source to a creative commons file
+	Changed AutoWalk to only walk when camera rotation is between certain angles
+	Added test powerup for picking up items
