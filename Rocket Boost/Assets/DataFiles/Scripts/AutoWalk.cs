@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class AutoWalk : MonoBehaviour {
-	public int speed = 10;
+	public int speed = 3;
 
 	// Use this for initialization
 	void Start () {
