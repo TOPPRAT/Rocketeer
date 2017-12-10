@@ -10,7 +10,6 @@ public class AutoWalk : MonoBehaviour {
 	private bool canWalk = false;
 	// Use this for initialization
 	void Start () {
-		
 	}
 	
 	// Update is called once per frame
