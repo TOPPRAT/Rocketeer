@@ -1747,7 +1747,7 @@ MonoBehaviour:
   occlusionEnabled: 0
   playOnAwake: 1
   sourceClip: {fileID: 8300000, guid: 9dc6fd307fa47964b9da80234528682c, type: 3}
-  sourceLoop: 0
+  sourceLoop: 1
   sourceMute: 0
   sourcePitch: 1
   sourcePriority: 128
