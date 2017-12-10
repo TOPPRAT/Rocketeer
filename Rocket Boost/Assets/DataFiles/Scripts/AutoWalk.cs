@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 public class AutoWalk : MonoBehaviour {
 	public int speed = 10;
 
+	public LevelManager lvlManager;
+
+	private bool canWalk = false;
 	// Use this for initialization
 	void Start () {
 		
@@ -12,13 +15,18 @@ public class AutoWalk : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.position = transform.position + Camera.main.transform.forward * speed * Time.deltaTime;
+		if (Input.GetButtonDown ("Fire1")) {
+			canWalk = !canWalk;
+		}
+		if (canWalk) {
+			transform.position = transform.position + Camera.main.transform.forward * speed * Time.deltaTime;
+		}
 	}
 
 	public void OnTriggerEnter(Collider collide)
 	{
 		if (collide.gameObject.CompareTag ("TrophyTag")) {
-			SceneManager.LoadScene("Maze2");
+			lvlManager.LoadNextLevel ();
 		}
 	}
 }
