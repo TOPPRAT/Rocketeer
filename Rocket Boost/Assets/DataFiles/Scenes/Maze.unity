@@ -2535,7 +2535,7 @@ MonoBehaviour:
   directivitySharpness: 1
   listenerDirectivityAlpha: 0
   listenerDirectivitySharpness: 1
-  gainDb: 6.5
+  gainDb: 24
   occlusionEnabled: 0
   playOnAwake: 1
   sourceClip: {fileID: 8300000, guid: 9dc6fd307fa47964b9da80234528682c, type: 3}
