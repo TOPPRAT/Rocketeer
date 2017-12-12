@@ -1743,7 +1743,7 @@ MonoBehaviour:
   directivitySharpness: 1
   listenerDirectivityAlpha: 0
   listenerDirectivitySharpness: 1
-  gainDb: 8.5
+  gainDb: 7
   occlusionEnabled: 0
   playOnAwake: 1
   sourceClip: {fileID: 8300000, guid: 9dc6fd307fa47964b9da80234528682c, type: 3}
@@ -1754,7 +1754,7 @@ MonoBehaviour:
   sourceSpatialBlend: 1
   sourceDopplerLevel: 1
   sourceSpread: 0
-  sourceVolume: 0.673
+  sourceVolume: 1
   sourceRolloffMode: 0
   sourceMaxDistance: 500
   sourceMinDistance: 1
@@ -9118,7 +9118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a78d2c4acf204456ae9cef7ba576ce6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 1.3
   lvlManager: {fileID: 1157500722}
 --- !u!54 &1841508745
 Rigidbody:
@@ -9998,7 +9998,7 @@ Transform:
   m_GameObject: {fileID: 1946427354}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.94, y: 0.09399923, z: -2.05}
-  m_LocalScale: {x: 0.67590034, y: 0.65, z: 0.15579031}
+  m_LocalScale: {x: 0.7907495, y: 0.65, z: 0.15579031}
   m_Children: []
   m_Father: {fileID: 629680863}
   m_RootOrder: 87

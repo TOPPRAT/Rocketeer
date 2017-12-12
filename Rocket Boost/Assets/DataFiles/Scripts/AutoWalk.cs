@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class AutoWalk : MonoBehaviour {
-	public int speed = 10;
+	public float speed = 1.5f;
 
 	public LevelManager lvlManager;
 
